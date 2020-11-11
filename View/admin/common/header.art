@@ -9,7 +9,8 @@
     <div class="info">
         <div class="profile dropdown fr">
             <span class="btn dropdown-toggle" data-toggle="dropdown">
-				{{userInfo && userInfo.username}}
+            <!--如果userInfo存在-->
+				{{ userInfo && userInfo.username}}
 				<span class="caret"></span>
             </span>
             <ul class="dropdown-menu">

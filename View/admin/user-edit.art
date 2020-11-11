@@ -9,6 +9,7 @@
         <div class="main">
             <!-- 分类标题 -->
             <div class="title">
+            <!-- @表示原文输出 即去引号-->
                 <h4 style="display: {{button == '修改' ? 'block' : 'none'}}">{{@user && user._id}}</h4>
                 <p class="tips">{{message}}</p>
             </div>
